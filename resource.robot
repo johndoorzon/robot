@@ -8,7 +8,7 @@ Library           Selenium2Library
 
 *** Variables ***
 ${SERVER}         localhost:7272
-${BROWSER}        gc
+${BROWSER}        phantomjs
 ${DELAY}          0
 ${VALID USER}     smolenaa
 ${VALID PASSWORD}    Or@nje03
