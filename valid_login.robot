@@ -13,6 +13,7 @@ Valid Login
     Input Password    Or@nje05
     Submit Credentials
     Welcome Page Should Be Open
-    Click Link    css=a:contains("Blockchain")
+    Wait Until Element Is Visible    css=a:contains("Blockchain")
+	Click Link    css=a:contains("Blockchain")
     [Teardown]    Close Browser    #Close Browser
 
