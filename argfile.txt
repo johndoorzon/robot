@@ -1,0 +1,5 @@
+--outputdir D:\ 
+--suite
+WebDemo.Login Tests.Gherkin Login
+--test
+WebDemo.Login Tests.Gherkin Login.Valid Login
