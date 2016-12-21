@@ -13,12 +13,6 @@ Valid Login
     Input Password    Or@nje05
     Submit Credentials
     Welcome Page Should Be Open
-    Click Link    css=a[href*="javaone"]
+    Click Link    css=a[href*="Blockchain"]
     [Teardown]    Close Browser    #Close Browser
 
-Request headers
-    Set Log Level    TRACE
-    Open Browser    http://www.nu.nl
-    Create HTTP Context    localhost
-    Set Request Header    key    value
-    Get    /rolodex
