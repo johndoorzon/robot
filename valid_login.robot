@@ -13,6 +13,6 @@ Valid Login
     Input Password    Or@nje05
     Submit Credentials
     Welcome Page Should Be Open
-    Click Link    css=a[href*="Blockchain"]
+    Click Link    css=a:contains("Blockchain")
     [Teardown]    Close Browser    #Close Browser
 
