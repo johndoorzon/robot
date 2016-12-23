@@ -21,7 +21,7 @@ Open Browser To Login Page
     Open Browser    ${LOGIN URL}    ${BROWSER}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
-    Login Page Should Be Open
+Comment    Login Page Should Be Open
 
 Login Page Should Be Open
     Title Should Be    Sogeti Login
