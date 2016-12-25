@@ -42,5 +42,6 @@ Submit Credentials
     Click Button    Login
 
 Welcome Page Should Be Open
+    sleep    1
     Location Should Be    ${WELCOME URL}
     Title Should Be    Nieuws en succesverhalen | Einstein
