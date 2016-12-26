@@ -8,7 +8,7 @@ Library           Selenium2Library
 
 *** Variables ***
 ${SERVER}         localhost:7272
-${BROWSER}        firefox
+${BROWSER}        gc
 ${DELAY}          0
 ${VALID USER}     smolenaa
 ${VALID PASSWORD}    Or@nje03
@@ -21,7 +21,7 @@ Open Browser To Login Page
     Open Browser    ${LOGIN URL}    ${BROWSER}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
-Comment    Login Page Should Be Open
+    Login Page Should Be Open
 
 Login Page Should Be Open
     Title Should Be    Sogeti Login
@@ -42,6 +42,5 @@ Submit Credentials
     Click Button    Login
 
 Welcome Page Should Be Open
-    sleep    1
     Location Should Be    ${WELCOME URL}
     Title Should Be    Nieuws en succesverhalen | Einstein
